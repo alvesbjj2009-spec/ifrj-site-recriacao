@@ -1,0 +1,204 @@
+/* === ESTILOS GERAIS === */
+
+body {
+  background-color: #ffffff;
+  color: #000000ff;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+header,
+footer {
+  background-color: rgb(41, 182, 62);
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+  position: relative;
+}
+
+h1 {
+  color: #ffffff;
+  margin: 0;
+}
+
+h2 {
+  color: rgb(41, 182, 62);
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.9em;
+}
+
+/* === LOGOTIPO === */
+
+.logotipo {
+  width: 6vw;
+  height: 12vh;
+  position: absolute;
+  top: 12px;
+  left: 20px;
+}
+
+/* === BOTÃO CTA (Cabeçalho) === */
+
+.cta-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  padding: 10px 25px;
+  width: 14vw;
+  min-width: 120px;
+  border-radius: 18px;
+  cursor: pointer;
+  background: #1e7e2d;
+  color: white;
+  font-size: clamp(14px, 1.3vw, 22px);
+  font-weight: 700;
+  border: none;
+  text-align: center;
+  transition: 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cta-btn:hover {
+  background: #1e6519;
+  transform: scale(1.03);
+}
+
+/* === CAIXAS IFRJ === */
+
+.caixa-ifrj {
+  width: 90%;
+  max-width: 500px;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border: 3px solid #29b63e;
+  border-radius: 12px;
+  margin: 25px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: #1e7e2d;
+  font-weight: bold;
+  text-align: center;
+}
+
+img.logo {
+  width: 180px;
+  height: auto;
+}
+
+img.campus,
+img.cartaz {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* === FORMULÁRIO DE CADASTRO === */
+
+.form-box {
+  margin: 40px auto;
+  max-width: 350px;
+  background: #c0f5c6;
+  overflow: hidden;
+  border-radius: 16px;
+  color: #010101;
+  border: 3px solid rgb(41, 182, 62);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 24px 24px;
+  gap: 16px;
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #444;
+}
+
+.form-container {
+  border-radius: 8px;
+  background-color: #f4fff4;
+  margin: 1rem 0 0.5rem;
+  width: 100%;
+}
+
+.input {
+  background: none;
+  border: 0;
+  outline: 0;
+  height: 40px;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+  font-size: 0.9rem;
+  padding: 8px 15px;
+}
+
+.form-section {
+  padding: 16px;
+  font-size: 0.85rem;
+  background-color: #d4ffd9;
+  border-top: 1px solid #b6e9bb;
+}
+
+.form-section a {
+  font-weight: bold;
+  color: #0066ff;
+}
+
+/* BOTÃO DO FORMULÁRIO */
+
+.form button {
+  background-color: #29b63e;
+  color: #fff;
+  border: 0;
+  border-radius: 24px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form button:hover {
+  background-color: #229c35;
+}
+
+.btn-voltar {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+
+  padding: 1.2vh 2vw;
+  font-size: clamp(12px, 1.4vw, 18px);
+
+  background: #1e7e2d;
+  color: #000;
+  font-weight: 600;
+
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.btn-voltar:hover {
+  background: #1e6519;
+  transform: scale(1.05);
+}
